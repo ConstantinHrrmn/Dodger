@@ -17,7 +17,7 @@ public class ennemiMoving : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -30,14 +30,14 @@ public class ennemiMoving : MonoBehaviour
             if (this.speed <= maxSpeed)
             {
                 //this.speed += Time.deltaTime;
-                this.speed += 0.1f;
+                this.speed += 0.3f;
             }
 
             this.coutner = 0;
         }
 
         this.Move();
-        
+
     }
 
     void Move()
